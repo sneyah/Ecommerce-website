@@ -1,0 +1,57 @@
+#deal{
+    padding-top: 2rem;
+    max-height: 70vh;
+    background: var(--color-bg-1);
+    
+}
+.deal-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.deal-left img{
+    max-width: 33rem;
+}
+.deal-right{
+    color: var(--color-black);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.deal-right h4 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.deal-right h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.deal-right .btn{
+    margin-top: 1rem;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+
+@media screen and (max-width: 600px){
+    #deal{
+        min-height: 100vh;
+        background-color: fixed;
+    }
+    .deal-container{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,102 @@
+.shop-container{
+    width: var(--width-lg);
+    position: relative;
+    align-items: stretch;
+    gap: 1rem;
+}
+.shop-container .title{
+    text-align: start;
+}
+.item-card{
+    max-width: max-content;
+    padding: 1rem;
+    gap: 0.6rem;
+    margin: auto;
+    border: var(--border-2);
+    border-radius: var(--border-radius-1);
+    overflow: hidden;
+    position: relative;
+    transition: var(--transition);
+}
+.item-card img {
+    width: 100% !important;
+    max-width:18rem;
+    height: 200px !important;
+}
+
+.item-card h4{
+    font-weight: 400;
+    margin: 1rem 0 0.5rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: var(--color-dark);
+}
+.item-card p{
+    font-weight: 600;
+    color: var(--color-dark);
+    text-transform: capitalize;
+}
+.price{
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+}
+.price span{
+    font-weight: 600;
+}
+.price span:last-child{
+    text-decoration: line-through;
+}
+.card-buttons{
+    display: flex;
+    gap: 0.5rem;
+}
+.card-buttons .btn{
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    padding: 0.5rem;
+    letter-spacing: 0;
+}
+.card-icons{
+    display: flex;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    gap: 0.5rem;
+    flex-direction: column;
+    transform: translateX(200%);
+    transition: var(--transition);
+}
+.card-icons a{
+    font-size: 1.1rem;
+    color: var(--color-white);
+    padding: 0.4rem;
+    line-height: 1;
+    border: var(--border-1);
+    border-radius: var(--border-radius-1);
+    border-color: var(--color-primary);
+    background: var(--color-primary);
+}
+.card-icons a:hover{
+    border-color: var(--color-secondary);
+    background: var(--color-secondary);
+}
+.item-card:hover .card-icons{
+   transform: translateX(0);
+}
+
+.swiper-buttons{
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    display: flex;
+    gap: 1rem;
+}
+.swiper-buttons .btn{
+    padding: 0.5rem 1rem;
+    line-height: 1;
+    font-size: 1.6rem;
+}
+.shop-container .swiper{
+    position: static !important;
+}

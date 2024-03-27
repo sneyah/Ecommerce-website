@@ -1,0 +1,40 @@
+.categories-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.categories-card{
+    text-align: center;
+    cursor: pointer;
+}
+.categories-card img{
+    background-position: center;
+    border: var(--border-1);
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+}
+.categories-card h4{
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    font-size: .95rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px){
+    .categories-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .categories-container{
+        grid-template-columns: 1fr ;
+    }
+    #categories{
+        width: 70%;
+        margin: auto;
+    }
+
+}

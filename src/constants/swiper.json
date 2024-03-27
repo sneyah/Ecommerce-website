@@ -1,0 +1,73 @@
+[
+    {
+        "imgURL": "./item1.jpg",
+        "name": "Conditioner",
+        "category": "Hair Care",
+        "price": "$9.99",
+        "old":"$12.99"
+    },
+    {
+        "imgURL": "./item2.jpg",
+        "name": "Dreamy comforts",
+        "category": "Bedding",
+        "price": "$39.99",
+        "old":"$49.99"
+    },
+    {
+        "imgURL": "./item3.jpg",
+        "name": "Face Cream",
+        "category": "Skin Care",
+        "price": "$24.99",
+        "old":"$29.99"
+    },
+    {
+        "imgURL": "./item4.jpg",
+        "name": "Armchair",
+        "category": "Furniture",
+        "price": "$79.99",
+        "old":"$99.99"
+    },
+    {
+        "imgURL": "./item5.jpg",
+        "name": "Scented Candle",
+        "category": "Decor",
+        "price": "$39.99",
+        "old":"$49.99"
+    },
+    {
+        "imgURL": "./item6.jpg",
+        "name": "Face moisturizer",
+        "category": "Skin Care",
+        "price": "$12.99",
+        "old":"$14.99"
+    },
+    {
+        "imgURL": "./item7.jpg",
+        "name": "Vase",
+        "category": "Decor",
+        "price": "$29.99",
+        "old":"$39.99"
+    },
+    {
+        "imgURL": "./item8.jpg",
+        "name": "Pillows",
+        "category": "Bedding",
+        "price": "$19.99",
+        "old":"$24.99"
+    },
+    {
+        "imgURL": "./item9.jpg",
+        "name": "Cosmetics",
+        "category": "Beauty",
+        "price": "$24.99",
+        "old":"$29.99"
+    },
+    {
+        "imgURL": "./item10.jpg",
+        "name": "Perfume",
+        "category": "Beauty",
+        "price": "$9.99",
+        "old":"$12.99"
+    }
+]
+
