@@ -161,6 +161,7 @@ nav hr {
         right: 1rem; /* Adjust right position as needed */
         z-index: 9999;
         color: var(--color-dark);
+        cursor: pointer;
     }
     .nm-container .nav-menu{
         position: absolute;
